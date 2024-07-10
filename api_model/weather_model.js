@@ -12,7 +12,7 @@ const Schema = mongoose.Schema({
     },
     statusSensor: {
         type: String,
-        default: "Active"
+        default: "inactive"
     }
 })
 
